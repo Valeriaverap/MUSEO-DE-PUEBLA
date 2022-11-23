@@ -1,0 +1,960 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>pagina de inicio</title>
+<style id="applicationStylesheet" type="text/css">
+	.mediaViewInfo {
+		--web-view-name: pagina de inicio;
+		--web-view-id: pagina_de_inicio;
+		--web-navigate-on-keypress: true;
+		--web-refresh-for-changes: true;
+		--web-enable-deep-linking: true;
+	}
+	:root {
+		--web-view-ids: pagina_de_inicio;
+	}
+	* {
+		margin: 0;
+		padding: 0;
+		box-sizing: border-box;
+		border: none;
+	}
+	.pagina_de_inicio_Class {
+		position: absolute;
+		width: 1920px;
+		height: 2931px;
+		background-color: rgba(255,255,255,1);
+		overflow: hidden;
+		--web-view-name: pagina de inicio;
+		--web-view-id: pagina_de_inicio;
+		--web-navigate-on-keypress: true;
+		--web-refresh-for-changes: true;
+		--web-enable-deep-linking: true;
+	}
+	@keyframes fadein {
+	
+		0% {
+			opacity: 0;
+		}
+		100% {
+			opacity: 1;
+		}
+	
+	}
+	.Rectngulo_58_Class {
+		fill: rgba(245,244,240,1);
+	}
+	.Rectngulo_58 {
+		position: absolute;
+		overflow: visible;
+		width: 1930px;
+		height: 203px;
+		left: -9px;
+		top: 2727px;
+	}
+	.Rectngulo_14_Class {
+		fill: rgba(177,73,83,1);
+	}
+	.Rectngulo_14 {
+		position: absolute;
+		overflow: visible;
+		width: 1921px;
+		height: 104px;
+		left: 0px;
+		top: 0px;
+	}
+	.Rectngulo_1_Class {
+		fill: rgba(255,255,255,1);
+	}
+	.Rectngulo_1 {
+		position: absolute;
+		overflow: visible;
+		width: 165px;
+		height: 40px;
+		left: 1336px;
+		top: 40px;
+	}
+	.Rectngulo_18_Class {
+		fill: rgba(255,255,255,1);
+	}
+	.Rectngulo_18 {
+		position: absolute;
+		overflow: visible;
+		width: 165px;
+		height: 40px;
+		left: 1146px;
+		top: 40px;
+	}
+	.Rectngulo_3_Class {
+		fill: rgba(255,255,255,1);
+	}
+	.Rectngulo_3 {
+		position: absolute;
+		overflow: visible;
+		width: 165px;
+		height: 40px;
+		left: 1526px;
+		top: 40px;
+	}
+	.Rectngulo_4_Class {
+		fill: rgba(255,255,255,1);
+	}
+	.Rectngulo_4 {
+		position: absolute;
+		overflow: visible;
+		width: 165px;
+		height: 40px;
+		left: 1716px;
+		top: 40px;
+	}
+	.Rectngulo_13_Class {
+		fill: rgba(243,241,236,1);
+	}
+	.Rectngulo_13 {
+		position: absolute;
+		overflow: visible;
+		width: 1920px;
+		height: 152px;
+		left: 0px;
+		top: 103px;
+	}
+	.Grupo_14_Class {
+		position: absolute;
+		width: 441px;
+		height: 92.533px;
+		left: -2.8px;
+		top: 162.467px;
+		overflow: visible;
+	}
+	.Grupo_13_Class {
+		position: absolute;
+		width: 441px;
+		height: 92.533px;
+		left: 0px;
+		top: 0px;
+		overflow: visible;
+	}
+	.Grupo_5_Class {
+		position: absolute;
+		width: 431.577px;
+		height: 119px;
+		left: 0px;
+		top: 102px;
+		overflow: visible;
+	}
+	.Grupo_4_Class {
+		position: absolute;
+		width: 431.577px;
+		height: 119px;
+		left: 0px;
+		top: 0px;
+		overflow: visible;
+	}
+	.Grupo_23_Class {
+		position: absolute;
+		width: 153.154px;
+		height: 152.568px;
+		left: 355px;
+		top: 102.432px;
+		overflow: visible;
+	}
+	.Grupo_22_Class {
+		position: absolute;
+		width: 153.154px;
+		height: 152.568px;
+		left: 0px;
+		top: 0px;
+		overflow: visible;
+	}
+	.Grupo_74_Class {
+		position: absolute;
+		width: 248px;
+		height: 247.052px;
+		left: 0px;
+		top: 2683.949px;
+		overflow: visible;
+	}
+	.Grupo_22__Class {
+		position: absolute;
+		width: 248px;
+		height: 247.052px;
+		left: 0px;
+		top: 0px;
+		overflow: visible;
+	}
+	.Grupo_27_Class {
+		position: absolute;
+		width: 1565.873px;
+		height: 571.198px;
+		left: 177px;
+		top: 319px;
+		overflow: visible;
+	}
+	.Grupo_26_Class {
+		position: absolute;
+		width: 1565.873px;
+		height: 571.198px;
+		left: 0px;
+		top: 0px;
+		overflow: visible;
+	}
+	.Informacin_Class {
+		left: 1157px;
+		top: 47px;
+		position: absolute;
+		overflow: visible;
+		width: 140px;
+		height: 27px;
+		text-align: center;
+		font-family: Segoe UI;
+		font-style: normal;
+		font-weight: bold;
+		font-size: 20px;
+		color: rgba(112,112,112,1);
+	}
+	.Quines_somos_Class {
+		left: 1347px;
+		top: 47px;
+		position: absolute;
+		overflow: visible;
+		width: 140px;
+		height: 27px;
+		text-align: center;
+		font-family: Segoe UI;
+		font-style: normal;
+		font-weight: bold;
+		font-size: 20px;
+		color: rgba(112,112,112,1);
+	}
+	.Misin_Class {
+		left: 1537px;
+		top: 47px;
+		position: absolute;
+		overflow: visible;
+		width: 140px;
+		height: 27px;
+		--web-animation: fadein 0.30000001192092896s ease-out;
+		--web-action-type: page;
+		--web-action-target: museo_6.html;
+		cursor: pointer;
+		text-align: center;
+		font-family: Segoe UI;
+		font-style: normal;
+		font-weight: bold;
+		font-size: 20px;
+		color: rgba(112,112,112,1);
+	}
+	.Visin_Class {
+		left: 1728px;
+		top: 47px;
+		position: absolute;
+		overflow: visible;
+		width: 140px;
+		height: 27px;
+		--web-animation: fadein 0.30000001192092896s ease-out;
+		--web-action-type: page;
+		--web-action-target: museo_7.html;
+		cursor: pointer;
+		text-align: center;
+		font-family: Segoe UI;
+		font-style: normal;
+		font-weight: bold;
+		font-size: 20px;
+		color: rgba(112,112,112,1);
+	}
+	.Rectngulo_19_Class {
+		fill: rgba(255,255,255,1);
+	}
+	.Rectngulo_19 {
+		position: absolute;
+		overflow: visible;
+		width: 108px;
+		height: 25px;
+		left: 26px;
+		top: 221px;
+	}
+	.Rectngulo_20_Class {
+		fill: rgba(255,255,255,1);
+	}
+	.Rectngulo_20 {
+		position: absolute;
+		overflow: visible;
+		width: 108px;
+		height: 25px;
+		left: 154px;
+		top: 221px;
+	}
+	.Rectngulo_21_Class {
+		fill: rgba(255,255,255,1);
+	}
+	.Rectngulo_21 {
+		position: absolute;
+		overflow: visible;
+		width: 108px;
+		height: 25px;
+		left: 282px;
+		top: 221px;
+	}
+	.Contacto_directo_Class {
+		left: 34px;
+		top: 226px;
+		position: absolute;
+		overflow: visible;
+		width: 93px;
+		height: 16px;
+		--web-animation: fadein 0.30000001192092896s ease-out;
+		--web-action-type: page;
+		--web-action-target: museo_8_.html;
+		cursor: pointer;
+		text-align: center;
+		font-family: Segoe UI;
+		font-style: normal;
+		font-weight: bold;
+		font-size: 12px;
+		color: rgba(177,73,83,1);
+	}
+	.Telfono_Class {
+		left: 162px;
+		top: 226px;
+		position: absolute;
+		overflow: visible;
+		width: 93px;
+		height: 16px;
+		text-align: center;
+		font-family: Segoe UI;
+		font-style: normal;
+		font-weight: bold;
+		font-size: 12px;
+		color: rgba(177,73,83,1);
+	}
+	.e-mail_Class {
+		left: 318px;
+		top: 226px;
+		position: absolute;
+		overflow: visible;
+		width: 37px;
+		height: 16px;
+		text-align: center;
+		font-family: Segoe UI;
+		font-style: normal;
+		font-weight: bold;
+		font-size: 12px;
+		color: rgba(177,73,83,1);
+	}
+	.Grupo_28_Class {
+		position: absolute;
+		width: 155px;
+		height: 43px;
+		left: 882px;
+		top: 828px;
+		overflow: visible;
+	}
+	.Elipse_1_Class {
+		fill: rgba(255,255,255,1);
+		stroke: rgba(112,112,112,1);
+		stroke-width: 1px;
+		stroke-linejoin: miter;
+		stroke-linecap: butt;
+		stroke-miterlimit: 4;
+		shape-rendering: auto;
+	}
+	.Elipse_1 {
+		position: absolute;
+		overflow: visible;
+		width: 43px;
+		height: 43px;
+		left: 0px;
+		top: 0px;
+	}
+	.Elipse_2_Class {
+		opacity: 0.34;
+		fill: rgba(255,255,255,1);
+		stroke: rgba(112,112,112,1);
+		stroke-width: 1px;
+		stroke-linejoin: miter;
+		stroke-linecap: butt;
+		stroke-miterlimit: 4;
+		shape-rendering: auto;
+	}
+	.Elipse_2 {
+		position: absolute;
+		overflow: visible;
+		width: 43px;
+		height: 43px;
+		left: 56px;
+		top: 0px;
+	}
+	.Elipse_3_Class {
+		opacity: 0.18;
+		fill: rgba(255,255,255,1);
+		stroke: rgba(112,112,112,1);
+		stroke-width: 1px;
+		stroke-linejoin: miter;
+		stroke-linecap: butt;
+		stroke-miterlimit: 4;
+		shape-rendering: auto;
+	}
+	.Elipse_3 {
+		position: absolute;
+		overflow: visible;
+		width: 43px;
+		height: 43px;
+		left: 112px;
+		top: 0px;
+	}
+	.Casa_de_la_Msica_de_Viena_en_P_Class {
+		left: 138px;
+		top: 1401px;
+		position: absolute;
+		overflow: visible;
+		width: 443px;
+		height: 43px;
+		text-align: center;
+		font-family: Segoe UI;
+		font-style: normal;
+		font-weight: bold;
+		font-size: 25px;
+		color: rgba(177,73,83,1);
+	}
+	.Fonoteca_Vicente_Tedulo_Mendoz_Class {
+		left: 138px;
+		top: 1893px;
+		position: absolute;
+		overflow: visible;
+		width: 443px;
+		height: 43px;
+		text-align: center;
+		font-family: Segoe UI;
+		font-style: normal;
+		font-weight: bold;
+		font-size: 25px;
+		color: rgba(177,73,83,1);
+	}
+	.Museo_de_Arte_Popular__Ex_Conv_Class {
+		left: 138px;
+		top: 2407px;
+		position: absolute;
+		overflow: visible;
+		width: 443px;
+		height: 75px;
+		text-align: center;
+		font-family: Segoe UI;
+		font-style: normal;
+		font-weight: bold;
+		font-size: 25px;
+		color: rgba(177,73,83,1);
+	}
+	.Galera_Tesoros_de_Catedral_Class {
+		left: 739px;
+		top: 1401px;
+		position: absolute;
+		overflow: visible;
+		width: 443px;
+		height: 43px;
+		text-align: center;
+		font-family: Segoe UI;
+		font-style: normal;
+		font-weight: bold;
+		font-size: 25px;
+		color: rgba(177,73,83,1);
+	}
+	.Museo_Internacional_del_Barroc_Class {
+		left: 739px;
+		top: 1892px;
+		position: absolute;
+		overflow: visible;
+		width: 443px;
+		height: 44px;
+		text-align: center;
+		font-family: Segoe UI;
+		font-style: normal;
+		font-weight: bold;
+		font-size: 25px;
+		color: rgba(177,73,83,1);
+	}
+	.Museo_Regional_Casa_de_Alfeiqu_Class {
+		left: 739px;
+		top: 2407px;
+		position: absolute;
+		overflow: visible;
+		width: 443px;
+		height: 44px;
+		text-align: center;
+		font-family: Segoe UI;
+		font-style: normal;
+		font-weight: bold;
+		font-size: 25px;
+		color: rgba(177,73,83,1);
+	}
+	.Museo_de_la_Evolucin_Tehuacn_Class {
+		left: 1340px;
+		top: 1401px;
+		position: absolute;
+		overflow: visible;
+		width: 443px;
+		height: 43px;
+		text-align: center;
+		font-family: Segoe UI;
+		font-style: normal;
+		font-weight: bold;
+		font-size: 25px;
+		color: rgba(177,73,83,1);
+	}
+	.Museo_Regional_de_Cholula_Class {
+		left: 1340px;
+		top: 1892px;
+		position: absolute;
+		overflow: visible;
+		width: 443px;
+		height: 43px;
+		text-align: center;
+		font-family: Segoe UI;
+		font-style: normal;
+		font-weight: bold;
+		font-size: 25px;
+		color: rgba(177,73,83,1);
+	}
+	.Museo_Regional_de_la_Revolucin_Class {
+		left: 1361px;
+		top: 2404px;
+		position: absolute;
+		overflow: visible;
+		width: 422px;
+		height: 100px;
+		text-align: center;
+		font-family: Segoe UI;
+		font-style: normal;
+		font-weight: bold;
+		font-size: 25px;
+		color: rgba(177,73,83,1);
+	}
+	.Grupo_32_Class {
+		position: absolute;
+		width: 520.128px;
+		height: 336.922px;
+		left: 99px;
+		top: 1023.5px;
+		overflow: visible;
+		--web-animation: fadein 0.30000001192092896s ease-out;
+		--web-action-type: page;
+		--web-action-target: museo_1.html;
+		cursor: pointer;
+	}
+	.Grupo_31_Class {
+		position: absolute;
+		width: 520.128px;
+		height: 336.922px;
+		left: 0px;
+		top: 0px;
+		overflow: visible;
+	}
+	.Grupo_36_Class {
+		position: absolute;
+		width: 520.13px;
+		height: 336.922px;
+		left: 700px;
+		top: 1023.5px;
+		overflow: visible;
+		--web-animation: fadein 0.30000001192092896s ease-out;
+		--web-action-type: page;
+		--web-action-target: museo_2.html;
+		cursor: pointer;
+	}
+	.Grupo_35_Class {
+		position: absolute;
+		width: 520.13px;
+		height: 336.922px;
+		left: 0px;
+		top: 0px;
+		overflow: visible;
+	}
+	.Grupo_40_Class {
+		position: absolute;
+		width: 520.127px;
+		height: 336.922px;
+		left: 1301px;
+		top: 1023.5px;
+		overflow: visible;
+		--web-animation: fadein 0.30000001192092896s ease-out;
+		--web-action-type: page;
+		--web-action-target: museo_3.html;
+		cursor: pointer;
+	}
+	.Grupo_39_Class {
+		position: absolute;
+		width: 520.127px;
+		height: 336.922px;
+		left: 0px;
+		top: 0px;
+		overflow: visible;
+	}
+	.Imagen_1_Class {
+		position: absolute;
+		width: 127px;
+		height: 52px;
+		left: -126px;
+		top: 1132px;
+		overflow: visible;
+	}
+	.Grupo_44_Class {
+		position: absolute;
+		width: 520.13px;
+		height: 336.922px;
+		left: 99px;
+		top: 1531.578px;
+		overflow: visible;
+	}
+	.Grupo_43_Class {
+		position: absolute;
+		width: 520.13px;
+		height: 336.922px;
+		left: 0px;
+		top: 0px;
+		overflow: visible;
+	}
+	.Grupo_48_Class {
+		position: absolute;
+		width: 520.129px;
+		height: 336.922px;
+		left: 699.936px;
+		top: 1531.578px;
+		overflow: visible;
+		--web-animation: fadein 0.30000001192092896s ease-out;
+		--web-action-type: page;
+		--web-action-target: museo_5.html;
+		cursor: pointer;
+	}
+	.Grupo_47_Class {
+		position: absolute;
+		width: 520.129px;
+		height: 336.922px;
+		left: 0px;
+		top: 0px;
+		overflow: visible;
+	}
+	.Grupo_52_Class {
+		position: absolute;
+		width: 520.128px;
+		height: 336.922px;
+		left: 1300.87px;
+		top: 1531.578px;
+		overflow: visible;
+		--web-animation: fadein 0.30000001192092896s ease-out;
+		--web-action-type: page;
+		--web-action-target: museo_4.html;
+		cursor: pointer;
+	}
+	.Grupo_51_Class {
+		position: absolute;
+		width: 520.128px;
+		height: 336.922px;
+		left: 0px;
+		top: 0px;
+		overflow: visible;
+	}
+	.Grupo_56_Class {
+		position: absolute;
+		width: 520.128px;
+		height: 336.922px;
+		left: 99px;
+		top: 2029.5px;
+		overflow: visible;
+		--web-animation: fadein 0.30000001192092896s ease-out;
+		--web-action-type: page;
+		--web-action-target: museo_9_.html;
+		cursor: pointer;
+	}
+	.Grupo_55_Class {
+		position: absolute;
+		width: 520.128px;
+		height: 336.922px;
+		left: 0px;
+		top: 0px;
+		overflow: visible;
+	}
+	.Grupo_60_Class {
+		position: absolute;
+		width: 520.129px;
+		height: 336.922px;
+		left: 702.809px;
+		top: 2029.5px;
+		overflow: visible;
+	}
+	.Grupo_59_Class {
+		position: absolute;
+		width: 520.129px;
+		height: 336.922px;
+		left: 0px;
+		top: 0px;
+		overflow: visible;
+	}
+	.Grupo_64_Class {
+		position: absolute;
+		width: 517.255px;
+		height: 335.06px;
+		left: 1306.619px;
+		top: 2028.5px;
+		overflow: visible;
+	}
+	.Grupo_63_Class {
+		position: absolute;
+		width: 517.255px;
+		height: 335.06px;
+		left: 0px;
+		top: 0px;
+		overflow: visible;
+	}
+	.Museos_de_Puebla_Class {
+		left: 514px;
+		top: 154px;
+		position: absolute;
+		overflow: visible;
+		width: 486px;
+		height: 67px;
+		text-align: center;
+		font-family: Segoe UI;
+		font-style: normal;
+		font-weight: bold;
+		font-size: 50px;
+		color: rgba(82,82,88,1);
+	}
+	.Imagen_4_Class {
+		position: absolute;
+		width: 280px;
+		height: 106px;
+		left: 1565px;
+		top: 2788px;
+		overflow: visible;
+	}
+	.Elipse_4_Class {
+		fill: transparent;
+		stroke: rgba(168,18,62,1);
+		stroke-width: 8px;
+		stroke-linejoin: miter;
+		stroke-linecap: butt;
+		stroke-miterlimit: 4;
+		shape-rendering: auto;
+	}
+	.Elipse_4 {
+		position: absolute;
+		overflow: visible;
+		width: 81px;
+		height: 81px;
+		left: 1587px;
+		top: 2802px;
+	}
+	.Elipse_5_Class {
+		fill: transparent;
+		stroke: rgba(168,18,62,1);
+		stroke-width: 8px;
+		stroke-linejoin: miter;
+		stroke-linecap: butt;
+		stroke-miterlimit: 4;
+		shape-rendering: auto;
+	}
+	.Elipse_5 {
+		position: absolute;
+		overflow: visible;
+		width: 81px;
+		height: 81px;
+		left: 1731px;
+		top: 2802px;
+	}
+</style>
+<script id="applicationScript" type="text/javascript" src="pagina_de_inicio.js"></script>
+</head>
+<body>
+<div id="pagina_de_inicio" class="pagina_de_inicio_Class">
+	<svg class="Rectngulo_58">
+		<rect class="Rectngulo_58_Class" rx="0" ry="0" x="0" y="0" width="1930" height="203">
+		</rect>
+	</svg>
+	<svg class="Rectngulo_14">
+		<rect class="Rectngulo_14_Class" rx="0" ry="0" x="0" y="0" width="1921" height="104">
+		</rect>
+	</svg>
+	<svg class="Rectngulo_1">
+		<rect class="Rectngulo_1_Class" rx="20" ry="20" x="0" y="0" width="165" height="40">
+		</rect>
+	</svg>
+	<svg class="Rectngulo_18">
+		<rect class="Rectngulo_18_Class" rx="20" ry="20" x="0" y="0" width="165" height="40">
+		</rect>
+	</svg>
+	<svg class="Rectngulo_3">
+		<rect class="Rectngulo_3_Class" rx="20" ry="20" x="0" y="0" width="165" height="40">
+		</rect>
+	</svg>
+	<svg class="Rectngulo_4">
+		<rect class="Rectngulo_4_Class" rx="20" ry="20" x="0" y="0" width="165" height="40">
+		</rect>
+	</svg>
+	<svg class="Rectngulo_13">
+		<rect class="Rectngulo_13_Class" rx="0" ry="0" x="0" y="0" width="1920" height="152">
+		</rect>
+	</svg>
+	<div style="position:absolute;width:441px;height:92.533px;left:-2.8px;top:162.467px;overflow:visible;" class="Grupo_14_Class">
+		<img style="position:absolute;width:441px;height:92.533px;left:0px;top:0px;overflow:visible;" class="Grupo_13_Class" src="Grupo_13.png" srcset="Grupo_13.png 1x, Grupo_13@2x.png 2x">
+			
+		</svg>
+	</div>
+	<div style="position:absolute;width:431.577px;height:119px;left:0px;top:102px;overflow:visible;" class="Grupo_5_Class">
+		<img style="position:absolute;width:431.577px;height:119px;left:0px;top:0px;overflow:visible;" class="Grupo_4_Class" src="Grupo_4.png" srcset="Grupo_4.png 1x, Grupo_4@2x.png 2x">
+			
+		</svg>
+	</div>
+	<div style="position:absolute;width:153.154px;height:152.568px;left:355px;top:102.432px;overflow:visible;" class="Grupo_23_Class">
+		<img style="position:absolute;width:153.154px;height:152.568px;left:0px;top:0px;overflow:visible;" class="Grupo_22_Class" src="Grupo_22.png" srcset="Grupo_22.png 1x, Grupo_22@2x.png 2x">
+			
+		</svg>
+	</div>
+	<div style="position:absolute;width:248px;height:247.052px;left:0px;top:2683.949px;overflow:visible;" class="Grupo_74_Class">
+		<img style="position:absolute;width:248px;height:247.052px;left:0px;top:0px;overflow:visible;" class="Grupo_22__Class" src="Grupo_22_.png" srcset="Grupo_22_.png 1x, Grupo_22_@2x.png 2x">
+			
+		</svg>
+	</div>
+	<div style="position:absolute;width:1565.873px;height:571.198px;left:177px;top:319px;overflow:visible;" class="Grupo_27_Class">
+		<img style="position:absolute;width:1565.873px;height:571.198px;left:0px;top:0px;overflow:visible;" class="Grupo_26_Class" src="Grupo_26.png" srcset="Grupo_26.png 1x, Grupo_26@2x.png 2x">
+			
+		</svg>
+	</div>
+	<div class="Informacin_Class">
+		<span>Información</span>
+	</div>
+	<div class="Quines_somos_Class">
+		<span>Quiénes somos</span>
+	</div>
+	<div onclick="application.goToTargetView(event)" class="Misin_Class">
+		<span>Misión</span>
+	</div>
+	<div onclick="application.goToTargetView(event)" class="Visin_Class">
+		<span>Visión</span>
+	</div>
+	<svg class="Rectngulo_19">
+		<rect class="Rectngulo_19_Class" rx="11" ry="11" x="0" y="0" width="108" height="25">
+		</rect>
+	</svg>
+	<svg class="Rectngulo_20">
+		<rect class="Rectngulo_20_Class" rx="11" ry="11" x="0" y="0" width="108" height="25">
+		</rect>
+	</svg>
+	<svg class="Rectngulo_21">
+		<rect class="Rectngulo_21_Class" rx="11" ry="11" x="0" y="0" width="108" height="25">
+		</rect>
+	</svg>
+	<div onclick="application.goToTargetView(event)" class="Contacto_directo_Class">
+		<span>Contacto directo</span>
+	</div>
+	<div class="Telfono_Class">
+		<span>Teléfono</span>
+	</div>
+	<div class="e-mail_Class">
+		<span>e-mail</span>
+	</div>
+	<div style="position:absolute;width:155px;height:43px;left:882px;top:828px;overflow:visible;" class="Grupo_28_Class">
+		<svg class="Elipse_1">
+			<ellipse class="Elipse_1_Class" rx="21.5" ry="21.5" cx="21.5" cy="21.5">
+			</ellipse>
+		</svg>
+		<svg class="Elipse_2">
+			<ellipse class="Elipse_2_Class" rx="21.5" ry="21.5" cx="21.5" cy="21.5">
+			</ellipse>
+		</svg>
+		<svg class="Elipse_3">
+			<ellipse class="Elipse_3_Class" rx="21.5" ry="21.5" cx="21.5" cy="21.5">
+			</ellipse>
+		</svg>
+	</div>
+	<div class="Casa_de_la_Msica_de_Viena_en_P_Class">
+		<span>Casa de la Música de Viena en Puebla</span>
+	</div>
+	<div class="Fonoteca_Vicente_Tedulo_Mendoz_Class">
+		<span>Fonoteca Vicente Teódulo Mendoza</span>
+	</div>
+	<div class="Museo_de_Arte_Popular__Ex_Conv_Class">
+		<span>Museo de Arte Popular<br/> Ex Convento de Santa Rosa</span>
+	</div>
+	<div class="Galera_Tesoros_de_Catedral_Class">
+		<span>Galería Tesoros de Catedral</span>
+	</div>
+	<div class="Museo_Internacional_del_Barroc_Class">
+		<span>Museo Internacional del Barroco</span>
+	</div>
+	<div class="Museo_Regional_Casa_de_Alfeiqu_Class">
+		<span>Museo Regional Casa de Alfeñique</span>
+	</div>
+	<div class="Museo_de_la_Evolucin_Tehuacn_Class">
+		<span>Museo de la Evolución Tehuacán</span>
+	</div>
+	<div class="Museo_Regional_de_Cholula_Class">
+		<span>Museo Regional de Cholula</span>
+	</div>
+	<div class="Museo_Regional_de_la_Revolucin_Class">
+		<span>Museo Regional de la Revolución Mexicana Casa de los<br/> Hermanos Serdán</span>
+	</div>
+	<div style="position:absolute;width:520.128px;height:336.922px;left:99px;top:1023.5px;overflow:visible;" onclick="application.goToTargetView(event)" class="Grupo_32_Class">
+		<img style="position:absolute;width:520.128px;height:336.922px;left:0px;top:0px;overflow:visible;" class="Grupo_31_Class" src="Grupo_31.png" srcset="Grupo_31.png 1x, Grupo_31@2x.png 2x">
+			
+		</svg>
+	</div>
+	<div style="position:absolute;width:520.13px;height:336.922px;left:700px;top:1023.5px;overflow:visible;" onclick="application.goToTargetView(event)" class="Grupo_36_Class">
+		<img style="position:absolute;width:520.13px;height:336.922px;left:0px;top:0px;overflow:visible;" class="Grupo_35_Class" src="Grupo_35.png" srcset="Grupo_35.png 1x, Grupo_35@2x.png 2x">
+			
+		</svg>
+	</div>
+	<div style="position:absolute;width:520.127px;height:336.922px;left:1301px;top:1023.5px;overflow:visible;" onclick="application.goToTargetView(event)" class="Grupo_40_Class">
+		<img style="position:absolute;width:520.127px;height:336.922px;left:0px;top:0px;overflow:visible;" class="Grupo_39_Class" src="Grupo_39.png" srcset="Grupo_39.png 1x, Grupo_39@2x.png 2x">
+			
+		</svg>
+	</div>
+	<img style="position:absolute;width:127px;height:52px;left:-126px;top:1132px;overflow:visible;" class="Imagen_1_Class" src="Imagen_1.png" srcset="Imagen_1.png 1x, Imagen_1@2x.png 2x">
+		
+	<div style="position:absolute;width:520.13px;height:336.922px;left:99px;top:1531.578px;overflow:visible;" class="Grupo_44_Class">
+		<img style="position:absolute;width:520.13px;height:336.922px;left:0px;top:0px;overflow:visible;" class="Grupo_43_Class" src="Grupo_43.png" srcset="Grupo_43.png 1x, Grupo_43@2x.png 2x">
+			
+		</svg>
+	</div>
+	<div style="position:absolute;width:520.129px;height:336.922px;left:699.936px;top:1531.578px;overflow:visible;" onclick="application.goToTargetView(event)" class="Grupo_48_Class">
+		<img style="position:absolute;width:520.129px;height:336.922px;left:0px;top:0px;overflow:visible;" class="Grupo_47_Class" src="Grupo_47.png" srcset="Grupo_47.png 1x, Grupo_47@2x.png 2x">
+			
+		</svg>
+	</div>
+	<div style="position:absolute;width:520.128px;height:336.922px;left:1300.87px;top:1531.578px;overflow:visible;" onclick="application.goToTargetView(event)" class="Grupo_52_Class">
+		<img style="position:absolute;width:520.128px;height:336.922px;left:0px;top:0px;overflow:visible;" class="Grupo_51_Class" src="Grupo_51.png" srcset="Grupo_51.png 1x, Grupo_51@2x.png 2x">
+			
+		</svg>
+	</div>
+	<div style="position:absolute;width:520.128px;height:336.922px;left:99px;top:2029.5px;overflow:visible;" onclick="application.goToTargetView(event)" class="Grupo_56_Class">
+		<img style="position:absolute;width:520.128px;height:336.922px;left:0px;top:0px;overflow:visible;" class="Grupo_55_Class" src="Grupo_55.png" srcset="Grupo_55.png 1x, Grupo_55@2x.png 2x">
+			
+		</svg>
+	</div>
+	<div style="position:absolute;width:520.129px;height:336.922px;left:702.809px;top:2029.5px;overflow:visible;" class="Grupo_60_Class">
+		<img style="position:absolute;width:520.129px;height:336.922px;left:0px;top:0px;overflow:visible;" class="Grupo_59_Class" src="Grupo_59.png" srcset="Grupo_59.png 1x, Grupo_59@2x.png 2x">
+			
+		</svg>
+	</div>
+	<div style="position:absolute;width:517.255px;height:335.06px;left:1306.619px;top:2028.5px;overflow:visible;" class="Grupo_64_Class">
+		<img style="position:absolute;width:517.255px;height:335.06px;left:0px;top:0px;overflow:visible;" class="Grupo_63_Class" src="Grupo_63.png" srcset="Grupo_63.png 1x, Grupo_63@2x.png 2x">
+			
+		</svg>
+	</div>
+	<div class="Museos_de_Puebla_Class">
+		<span>Museos de Puebla</span>
+	</div>
+	<img style="position:absolute;width:280px;height:106px;left:1565px;top:2788px;overflow:visible;" class="Imagen_4_Class" src="Imagen_4.png" srcset="Imagen_4.png 1x, Imagen_4@2x.png 2x">
+		
+	<svg class="Elipse_4">
+		<ellipse class="Elipse_4_Class" rx="40.5" ry="40.5" cx="40.5" cy="40.5">
+		</ellipse>
+	</svg>
+	<svg class="Elipse_5">
+		<ellipse class="Elipse_5_Class" rx="40.5" ry="40.5" cx="40.5" cy="40.5">
+		</ellipse>
+	</svg>
+</div>
+</body>
+</html>
